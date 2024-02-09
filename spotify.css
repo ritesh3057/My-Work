@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Poppins:wght@300&display=swap');
+
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* for navigation bar */
+nav{
+    font-family: sans-serif, 'Ubuntu';
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    
+}
+
+nav ul li{
+    padding: 0 12px;
+
+}
+ul img{
+    width: 60px ;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+/* for body part */
+
+.container{
+    height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: sans-serif, 'Varela Round';
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 22px;
+    background-image: url(https://e0.pxfuel.com/wallpapers/138/634/desktop-wallpaper-girl-listening-to-music-sketch-the-best-thumbnail.jpg);
+}
+
+
+
+
+
+
+
+/* for bottom part */
+
+.bottom{
+    position: sticky;
+    height: 90px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin: 15px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#progressbar{
+    width: 80vw;
+}

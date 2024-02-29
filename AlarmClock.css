@@ -1,0 +1,49 @@
+#Alarm-Main {
+  max-width: 400px; /* Limits width of the container */
+  margin: 0 auto; /* Centers the container horizontally */
+  padding: 20px; /* Adds internal padding */
+  border: 1px solid #ccc; /* Adds a border */
+  border-radius: 5px; /* Adds rounded corners */
+  background-color: #f9f9f9; /* Sets background color */
+}
+
+#Alarm-Main h1 {
+  font-size: 24px; /* Sets font size */
+  text-align: center; /* Centers text */
+  margin-bottom: 20px; /* Adds bottom margin */
+}
+
+.form-control {
+  width: 100%; /* Makes the input field full width */
+  padding: 10px; /* Adds internal padding */
+  font-size: 16px; /* Sets font size */
+  border: 1px solid #ccc; /* Adds a border */
+  border-radius: 5px; /* Adds rounded corners */
+}
+
+label {
+  font-weight: bold; /* Sets font weight to bold */
+}
+
+#SubmitAlarm {
+  display: block; /* Makes the button a block element */
+  width: 100%; /* Makes the button full width */
+  padding: 10px; /* Adds internal padding */
+  font-size: 16px; /* Sets font size */
+  border: none; /* Removes border */
+  border-radius: 5px; /* Adds rounded corners */
+  background-color: #007bff; /* Sets background color */
+  color: #fff; /* Sets text color */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+#SubmitAlarm:hover {
+  background-color: #0056b3; /* Changes background color on hover */
+}
+
+#AlarmSet {
+  display: block; /* Makes the text element a block element */
+  margin-top: 10px; /* Adds top margin */
+  font-size: 14px; /* Sets font size */
+  color: #888; /* Sets text color */
+}
